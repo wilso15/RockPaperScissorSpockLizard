@@ -10,11 +10,15 @@ namespace RockPaperScissors
     {
         public void displayLoss()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("You lose.");
         }
         public void displayWin()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("You win.");
+        }
+        public void displayDraw()
+        {
+            Console.WriteLine("It's a draw.");
         }
     }
 }

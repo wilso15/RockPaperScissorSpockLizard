@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace RockPaperScissors
 {
     class Player 
-    {
-        Rock rock;
-        
+    {        
         public enum choices { Rock, Paper, Scissor, Lizard, Spock };
 
         public Player()

@@ -27,25 +27,22 @@ namespace RockPaperScissors
             {
                 case 1:
                     AIchoice = scissors.Name;
-                    break;
+                    return "scissors";
                 case 2:
                     AIchoice = rock.Name;
-                    break;
-                default:
-                    break;
+                    return "rock";
+
                 case 3:
                     AIchoice = paper.Name;
-                    break;
+                    return "paper";
                 case 4:
                     AIchoice = lizard.Name;
-                    break;
+                    return "lizard";
                 case 5:
                     AIchoice = spock.Name;
-                    break;
+                    return "spock";
             }
             return AIchoice;
         }
     }
 }
-
-//"Enter 0 for Rock, 1 for Paper, 2 for Scissor, 3 for Lizard, 4 for Spock:
