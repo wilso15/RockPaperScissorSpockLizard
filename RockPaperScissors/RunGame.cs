@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class RunGame 
+    class RunGame
     {
         Scissor scissor;
         Paper paper;
@@ -61,7 +61,7 @@ namespace RockPaperScissors
                 case Player.choices.Paper:
                     switch (ai.getAIchoice())
                     {
-                        case "scissor": 
+                        case "scissor":
                             Console.WriteLine("player chose paper, AI chose scissor.");
                             Console.WriteLine("You Lose!");
                             break;
@@ -159,3 +159,6 @@ namespace RockPaperScissors
                     }
                     break;
             }
+        }
+    }
+}
