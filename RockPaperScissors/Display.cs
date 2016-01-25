@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class Display
+    public class Display
     {
         public void displayLoss()
         {
-            Console.WriteLine("You lose.");
+            Console.WriteLine("Player 1, you lose!");
         }
         public void displayWin()
         {
-            Console.WriteLine("You win.");
+            Console.WriteLine("Player 1, you win!");
         }
         public void displayDraw()
         {

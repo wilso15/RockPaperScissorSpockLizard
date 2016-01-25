@@ -13,13 +13,5 @@ namespace RockPaperScissors
         {
             this.Name = name;
         }
-        //public override void displayWin()
-        //{
-        //    throw new NotImplementedException();
-        //}
-        //public override void displayLoss()
-        //{
-        //    throw new NotImplementedException();
-        //}
     }
 }

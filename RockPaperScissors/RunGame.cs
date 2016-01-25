@@ -38,23 +38,23 @@ namespace RockPaperScissors
                     {
                         case "scissor":
                             Console.WriteLine("player chose rock, AI chose scissor.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "paper":
                             Console.WriteLine("player chose rock, AI chose paper.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "rock":
                             Console.WriteLine("player chose rock, AI chose rock.");
-                            Console.WriteLine("It's a Tie!");
+                            display.displayDraw();
                             break;
                         case "spock":
                             Console.WriteLine("player chose rock, AI chose spock.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "lizard":
                             Console.WriteLine("player chose rock, AI chose lizard.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                     }
                     break;
@@ -63,23 +63,23 @@ namespace RockPaperScissors
                     {
                         case "scissor":
                             Console.WriteLine("player chose paper, AI chose scissor.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "paper":
                             Console.WriteLine("player chose paper, AI chose paper.");
-                            Console.WriteLine("It's a Tie!");
+                            display.displayDraw();
                             break;
                         case "rock":
                             Console.WriteLine("player chose paper, AI chose rock.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "spock":
                             Console.WriteLine("player chose paper, AI chose spock.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "lizard":
                             Console.WriteLine("player chose paper, AI chose lizard.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                     }
                     break;
@@ -88,23 +88,23 @@ namespace RockPaperScissors
                     {
                         case "scissor":
                             Console.WriteLine("player chose scissor, AI chose scissor.");
-                            Console.WriteLine("It's a Tie!");
+                            display.displayDraw();
                             break;
                         case "paper":
                             Console.WriteLine("player chose scissor, AI chose paper.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "rock":
                             Console.WriteLine("player chose scissor, AI chose rock.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "spock":
                             Console.WriteLine("player chose scissor, AI chose spock.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "lizard":
                             Console.WriteLine("player chose scissor, AI chose lizard.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                     }
                     break;
@@ -113,23 +113,23 @@ namespace RockPaperScissors
                     {
                         case "scissor":
                             Console.WriteLine("player chose spock, AI chose scissor.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "paper":
                             Console.WriteLine("player chose spock, AI chose paper.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "rock":
                             Console.WriteLine("player chose spock, AI chose rock.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "spock":
                             Console.WriteLine("player chose spock, AI chose spock.");
-                            Console.WriteLine("It's a Tie!");
+                            display.displayDraw();
                             break;
                         case "lizard":
                             Console.WriteLine("player chose spock, AI chose lizard.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                     }
                     break;
@@ -138,23 +138,23 @@ namespace RockPaperScissors
                     {
                         case "scissor":
                             Console.WriteLine("player chose lizard, AI chose scissor.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "paper":
                             Console.WriteLine("player chose lizard, AI chose paper.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "rock":
                             Console.WriteLine("player chose lizard, AI chose rock.");
-                            Console.WriteLine("You Lose!");
+                            display.displayLoss();
                             break;
                         case "spock":
                             Console.WriteLine("player chose lizard, AI chose spock.");
-                            Console.WriteLine("You Win!");
+                            display.displayWin();
                             break;
                         case "lizard":
                             Console.WriteLine("player chose lizard, AI chose lizard.");
-                            Console.WriteLine("It's a Tie!");
+                            display.displayDraw();
                             break;
                     }
                     break;

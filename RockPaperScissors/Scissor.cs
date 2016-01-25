@@ -13,13 +13,5 @@ namespace RockPaperScissors
         {
             this.Name = name;
         }
-        //public override void displayWin()
-        //{
-
-        //}
-        //public override void displayLoss()
-        //{
-
-        //}
     }
 }
