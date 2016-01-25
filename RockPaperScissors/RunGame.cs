@@ -37,24 +37,28 @@ namespace RockPaperScissors
                     switch (ai.getAIchoice())
                     {
                         case "scissor":
-                            Console.WriteLine("player chose rock, AI chose scissor.");
+                            Console.WriteLine("Player chose rock, AI chose scissor.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "paper":
-                            Console.WriteLine("player chose rock, AI chose paper.");
+                            Console.WriteLine("Player chose rock, AI chose paper.");
                             display.displayLoss();
                             break;
                         case "rock":
-                            Console.WriteLine("player chose rock, AI chose rock.");
+                            Console.WriteLine("Player chose rock, AI chose rock.");
                             display.displayDraw();
                             break;
                         case "spock":
-                            Console.WriteLine("player chose rock, AI chose spock.");
+                            Console.WriteLine("Player chose rock, AI chose spock.");
                             display.displayLoss();
                             break;
                         case "lizard":
-                            Console.WriteLine("player chose rock, AI chose lizard.");
+                            Console.WriteLine("Player chose rock, AI chose lizard.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                     }
                     break;
@@ -62,23 +66,27 @@ namespace RockPaperScissors
                     switch (ai.getAIchoice())
                     {
                         case "scissor":
-                            Console.WriteLine("player chose paper, AI chose scissor.");
+                            Console.WriteLine("Player chose paper, AI chose scissor.");
                             display.displayLoss();
                             break;
                         case "paper":
-                            Console.WriteLine("player chose paper, AI chose paper.");
+                            Console.WriteLine("Player chose paper, AI chose paper.");
                             display.displayDraw();
                             break;
                         case "rock":
-                            Console.WriteLine("player chose paper, AI chose rock.");
+                            Console.WriteLine("Player chose paper, AI chose rock.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "spock":
-                            Console.WriteLine("player chose paper, AI chose spock.");
+                            Console.WriteLine("Player chose paper, AI chose spock.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "lizard":
-                            Console.WriteLine("player chose paper, AI chose lizard.");
+                            Console.WriteLine("Player chose paper, AI chose lizard.");
                             display.displayLoss();
                             break;
                     }
@@ -87,24 +95,28 @@ namespace RockPaperScissors
                     switch (ai.getAIchoice())
                     {
                         case "scissor":
-                            Console.WriteLine("player chose scissor, AI chose scissor.");
+                            Console.WriteLine("Player chose scissor, AI chose scissor.");
                             display.displayDraw();
                             break;
                         case "paper":
-                            Console.WriteLine("player chose scissor, AI chose paper.");
+                            Console.WriteLine("Player chose scissor, AI chose paper.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "rock":
-                            Console.WriteLine("player chose scissor, AI chose rock.");
+                            Console.WriteLine("Player chose scissor, AI chose rock.");
                             display.displayLoss();
                             break;
                         case "spock":
-                            Console.WriteLine("player chose scissor, AI chose spock.");
+                            Console.WriteLine("Player chose scissor, AI chose spock.");
                             display.displayLoss();
                             break;
                         case "lizard":
-                            Console.WriteLine("player chose scissor, AI chose lizard.");
+                            Console.WriteLine("Player chose scissor, AI chose lizard.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                     }
                     break;
@@ -112,23 +124,27 @@ namespace RockPaperScissors
                     switch (ai.getAIchoice())
                     {
                         case "scissor":
-                            Console.WriteLine("player chose spock, AI chose scissor.");
+                            Console.WriteLine("Player chose spock, AI chose scissor.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "paper":
-                            Console.WriteLine("player chose spock, AI chose paper.");
+                            Console.WriteLine("Player chose spock, AI chose paper.");
                             display.displayLoss();
                             break;
                         case "rock":
-                            Console.WriteLine("player chose spock, AI chose rock.");
+                            Console.WriteLine("Player chose spock, AI chose rock.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "spock":
-                            Console.WriteLine("player chose spock, AI chose spock.");
+                            Console.WriteLine("Player chose spock, AI chose spock.");
                             display.displayDraw();
                             break;
                         case "lizard":
-                            Console.WriteLine("player chose spock, AI chose lizard.");
+                            Console.WriteLine("Player chose spock, AI chose lizard.");
                             display.displayLoss();
                             break;
                     }
@@ -137,23 +153,27 @@ namespace RockPaperScissors
                     switch (ai.getAIchoice())
                     {
                         case "scissor":
-                            Console.WriteLine("player chose lizard, AI chose scissor.");
+                            Console.WriteLine("Player chose lizard, AI chose scissor.");
                             display.displayLoss();
                             break;
                         case "paper":
-                            Console.WriteLine("player chose lizard, AI chose paper.");
+                            Console.WriteLine("Player chose lizard, AI chose paper.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "rock":
-                            Console.WriteLine("player chose lizard, AI chose rock.");
+                            Console.WriteLine("Player chose lizard, AI chose rock.");
                             display.displayLoss();
                             break;
                         case "spock":
-                            Console.WriteLine("player chose lizard, AI chose spock.");
+                            Console.WriteLine("Player chose lizard, AI chose spock.");
                             display.displayWin();
+                            player.getScore();
+                            player.logHighScore();
                             break;
                         case "lizard":
-                            Console.WriteLine("player chose lizard, AI chose lizard.");
+                            Console.WriteLine("Player chose lizard, AI chose lizard.");
                             display.displayDraw();
                             break;
                     }
